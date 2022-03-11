@@ -1,0 +1,90 @@
+thead {
+  color: rgb(47, 137, 216);
+  font-size: 20px;
+  font-weight: bold;
+}
+.detail {
+  background-color: #cd1818;
+}
+table {
+  margin: auto;
+  margin-top: 40px;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 10px;
+  background-color: #f76e11;
+  color: white;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+}
+
+table {
+  margin-top: 20px;
+}
+
+form {
+  background-color: #ff008e;
+  color: aliceblue;
+  padding: 30px;
+  margin-bottom: 40px;
+
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+input {
+  margin: 5px;
+  padding: 5px 5px;
+  font-weight: bold;
+  font-size: 13px;
+}
+select {
+  margin: 10px;
+  padding: 5px;
+}
+
+body {
+  background-color: #b983ff;
+}
+
+table {
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+@keyframes example {
+  0% {
+    background-color: rgb(156, 22, 22);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}

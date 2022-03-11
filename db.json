@@ -1,0 +1,26 @@
+{
+  "userdata": [
+    {
+      "name": "Monu Mishra",
+      "age": "21",
+      "email": "monu@gmail.com",
+      "address": "Shahjahanpur",
+      "department": "Admin department",
+      "Married": "",
+      "Unmarried": "✔",
+      "salary": "100000",
+      "id": 1
+    },
+    {
+      "name": "Varun Bhatt",
+      "age": "",
+      "email": "varun@gmail.com",
+      "address": "",
+      "department": "",
+      "Married": "✔",
+      "Unmarried": "✔",
+      "salary": "",
+      "id": 2
+    }
+  ]
+}
